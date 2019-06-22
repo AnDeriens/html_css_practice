@@ -17,6 +17,20 @@ body {
     background-size: cover; /* 縦横比を保ったままなるべく大きく */
 }
 
+.section-title {
+    text-align: center;
+    font-weight: normal;
+    font-style: 24px;
+}
+
+.section-title:after {
+    content: attr(data-subtitle);
+    display: block;
+    font-style: 16px;
+    color: #aaa;
+    padding: 10px;
+}
+
 /* header */
 
 header h1 {
@@ -59,16 +73,3 @@ header img {
 
 /* features */
 
-.features h1 {
-    text-align: center;
-    font-weight: normal;
-    font-style: 24px;
-}
-
-.features h1:after {
-    content: attr(data-subtitle);
-    display: block;
-    font-style: 16px;
-    color: #aaa;
-    padding: 10px;
-}
