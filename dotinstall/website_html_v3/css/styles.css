@@ -1,1 +1,11 @@
+body {
+    font-style: 16px;
+    font-family: Verdana, sans-serif;
+    color: #333;
+}
 
+header {
+    color: #fff;
+    background: url(../img/bg.png);
+    background-size: cover; /* 縦横比を保ったままなるべく大きく */
+}
